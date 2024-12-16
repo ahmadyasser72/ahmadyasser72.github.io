@@ -1,0 +1,37 @@
+:root {
+  /* Solarized Base Colors in HSL */
+  --base03: 192 45% 11%; /* Very dark background */
+  --base02: 192 43% 16%; /* Dark background */
+  --base01: 192 20% 37%; /* Darker text */
+  --base00: 192 21% 41%; /* Normal text */
+  --base0: 192 13% 50%; /* Light text */
+  --base1: 192 10% 58%; /* Lighter text */
+  --base2: 44 87% 91%; /* Light background */
+  --base3: 45 92% 97%; /* Very light background */
+
+  /* Solarized Accent Colors */
+  --yellow: 45 89% 50%;
+  --orange: 18 79% 47%;
+  --red: 0 72% 56%;
+  --magenta: 327 64% 53%;
+  --violet: 252 43% 57%;
+  --blue: 205 82% 50%;
+  --cyan: 175 61% 41%;
+  --green: 88 40% 38%;
+
+  /* Default Theme - Light */
+  --background: var(--base3);
+  --foreground: var(--base00);
+  --primary: var(--blue);
+  --accent: var(--green);
+  --danger: var(--red);
+}
+
+.dark {
+  /* Override for Dark Theme */
+  --background: var(--base03);
+  --foreground: var(--base0);
+  --primary: var(--cyan);
+  --accent: var(--orange);
+  --danger: var(--magenta);
+}
